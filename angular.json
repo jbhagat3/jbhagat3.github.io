@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-portfolio": {
+    "jbhagat3.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-portfolio:build:production"
+              "buildTarget": "jbhagat3.github.io:build:production"
             },
             "development": {
-              "buildTarget": "my-portfolio:build:development"
+              "buildTarget": "jbhagat3.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
