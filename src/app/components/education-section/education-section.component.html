@@ -1,0 +1,22 @@
+<mat-card>
+  <mat-card-header>
+    <h3>Education</h3>
+  </mat-card-header>
+  <mat-card-content>
+    <div *ngFor="let edu of education; let i = index">
+      <div class="education-item">
+        <div class="institution-icon">
+          <img [src]="edu.institutionIcon" alt="{{edu.institution}} logo" />
+        </div>
+        <div class="education-details">
+          <h4>{{ edu.institution }}</h4>
+          <p>{{ edu.degree }}</p>
+          <p>{{ edu.years }}</p>
+        </div>
+      </div>
+
+      <!-- Divider between education entries -->
+      <mat-divider *ngIf="i < education.length - 1"></mat-divider>
+    </div>
+  </mat-card-content>
+</mat-card>

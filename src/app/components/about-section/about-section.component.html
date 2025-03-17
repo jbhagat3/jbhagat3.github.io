@@ -1,0 +1,52 @@
+<mat-card>
+  <mat-card-header>
+    <h3>About</h3>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="about-content">
+      <div *ngIf="!isExpanded" class="truncated-text">
+        I am a Full Stack Developer specializing in Angular, with over 6 years of
+        experience in building and maintaining responsive, high-performing
+        websites and applications. I have a deep understanding of JavaScript,
+        TypeScript, HTML, CSS, Java, and a strong command over Angular framework.
+      </div>
+      <div *ngIf="isExpanded">
+        <div>
+          I am a Full Stack Developer specializing in Angular, with over 6 years
+          of experience in building and maintaining responsive, high-performing
+          websites and applications. I have a deep understanding of JavaScript,
+          TypeScript, HTML, CSS, Java and a strong command over Angular
+          framework.
+        </div>
+        <div>
+          During my career, I have contributed to numerous projects that drove
+          business objectives and improved user experience. My experience ranges
+          from developing simple, effective websites to creating complex,
+          single-page applications using Angular.
+        </div>
+        <div>
+          I am skilled in translating design mockups into seamless interactive
+          experiences, optimizing web performance, and ensuring accessibility
+          standards. My passion for writing efficient, scalable code and my
+          ability to solve problems enable me to transform user requirements
+          into successful digital products.
+        </div>
+        <div>
+          I am known for my ability to work effectively in team environments,
+          meet tight deadlines, and continuously improve based on feedback. I am
+          committed to keeping up-to-date with the latest web technologies and
+          industry trends.
+        </div>
+        <div>
+          I am currently seeking opportunities to leverage my technical skills
+          and passion for front-end development in a challenging and
+          collaborative environment.
+        </div>
+      </div>
+    </div>
+    <!-- See more link with ellipsis -->
+    <span class="see-more" (click)="toggleExpand()">
+      {{ isExpanded ? 'see less' : '...see more' }}
+    </span>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,26 @@
+/* Global Background Color */
+body {
+  background-color: #f3f4f6; /* LinkedIn light gray background */
+  font-family: 'Roboto', sans-serif; /* Optional: Add a clean font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+mat-card {
+  background-color: white;
+  border-radius: 16px; /* Curved edges for the card */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  overflow: hidden; /* Ensure child elements don't overflow */
+  margin: 20px; /* Center the card and give space around */
+}
+
+mat-card-content {
+  background-color: white;
+  padding: 20px; /* Adjust padding inside the content */
+  color: black; /* Set text color */
+}

@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-header>
+    <h3>Skills</h3>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="skills-container">
+      <span *ngFor="let skill of skills" class="skill-badge">
+        {{ skill.name }}
+      </span>
+    </div>
+  </mat-card-content>
+</mat-card>

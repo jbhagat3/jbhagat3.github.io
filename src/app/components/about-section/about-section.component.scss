@@ -1,0 +1,60 @@
+mat-card {
+  background-color: white;
+  border-radius: 16px; /* Curved edges for the card */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  overflow: hidden; /* Ensure child elements don't overflow */
+  margin: 20px; /* Center the card and give space around */
+}
+
+mat-card-content {
+  background-color: white;
+  padding: 20px; /* Adjust padding inside the content */
+  color: black; /* Set text color */
+}
+
+.truncated-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.see-more {
+  color: #0073b1; /* LinkedIn-like blue */
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.see-more:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
+
+mat-card-content {
+  background-color: white;
+  padding: 20px;
+}
+
+button {
+  display: block;
+  background-color: #0073b1; /* LinkedIn-like blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px; /* Rounded button */
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+  margin-top: 16px;
+}
+
+button:hover {
+  background-color: #005b8c; /* Darker blue on hover */
+}
+
+div {
+  margin-bottom: 15px; /* Add margin between each div */
+}

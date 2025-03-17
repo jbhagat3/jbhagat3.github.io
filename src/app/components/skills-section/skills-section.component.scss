@@ -1,0 +1,30 @@
+mat-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+}
+
+mat-card-content {
+  background-color: white;
+  padding: 20px;
+  color: black;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-badge {
+  background-color: #e8f3ff; /* Light blue like LinkedIn */
+  color: #0073b1; /* LinkedIn blue */
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
